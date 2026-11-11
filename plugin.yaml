@@ -1,0 +1,15 @@
+name: common-ground
+version: "0.1.0"
+description: Durable collaboration records, mutual contributions and evidence-backed commitments.
+requires_hermes: ">=0.23.1,<0.24"
+license: MIT
+provides_tools:
+  - common_ground_capture
+  - common_ground_update
+  - common_ground_query
+  - common_ground_brief
+config_schema:
+  timezone:
+    type: str
+    default: UTC
+    description: IANA timezone for today and Monday–Sunday week filtering, e.g. America/New_York.

@@ -1,0 +1,67 @@
+{
+  "action": "prepare",
+  "proposal": {
+    "source": {
+      "title": "Fictional Are.na pilot",
+      "text": "We might explore a workshop. I, Alex, will deliver a prototype by November 13, 2026.",
+      "source_date": "2026-11-11"
+    },
+    "record": {
+      "name": "Fictional practitioner pilot",
+      "counterpart": "Are.na (fictional)",
+      "shared_goal": "Explore a workshop",
+      "goal_evidence": [
+        {
+          "source_id": "new",
+          "quote": "We might explore a workshop. I, Alex, will deliver a prototype by November 13, 2026."
+        }
+      ],
+      "contributions": [
+        {
+          "side": "ours",
+          "text": "Prototype",
+          "status": "source-supported",
+          "evidence": [
+            {
+              "source_id": "new",
+              "quote": "We might explore a workshop. I, Alex, will deliver a prototype by November 13, 2026."
+            }
+          ]
+        }
+      ],
+      "open_questions": [
+        "Workshop is not agreed."
+      ],
+      "commitments": [
+        {
+          "action": "Deliver prototype",
+          "owner": "Alex",
+          "side": "ours",
+          "due_date": "2026-11-13",
+          "date_wording": "November 13, 2026",
+          "status": "agreed",
+          "evidence": [
+            {
+              "source_id": "new",
+              "quote": "We might explore a workshop. I, Alex, will deliver a prototype by November 13, 2026."
+            }
+          ]
+        },
+        {
+          "action": "Explore workshop",
+          "owner": null,
+          "side": "unresolved",
+          "due_date": null,
+          "date_wording": null,
+          "status": "proposed",
+          "evidence": [
+            {
+              "source_id": "new",
+              "quote": "We might explore a workshop. I, Alex, will deliver a prototype by November 13, 2026."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
